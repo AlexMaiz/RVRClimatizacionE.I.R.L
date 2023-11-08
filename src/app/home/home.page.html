@@ -15,7 +15,7 @@
         </ion-button>
       </ion-col>
       <ion-col>
-          <ion-button style="color: #498B87;font-size: large;" fill="clear">INICIO</ion-button>
+          <ion-button style="color: #498B87;font-size: large;" fill="clear" (click)="scrollToSection('rectangulo');">INICIO</ion-button>
       </ion-col>
       <ion-col>
         <ion-button style="color: #498B87; font-size: large;" fill="clear" (mouseenter)="showMenu = true"  >NOSOTROS</ion-button>
@@ -46,7 +46,7 @@
         </div>
       </ion-col>
       <ion-col>
-        <ion-button expand="full" class="custom-button">
+        <ion-button expand="full" class="custom-button" (click)="scrollToSection('rectangulo16')">
           CONTACTANOS
         </ion-button>
       </ion-col>
@@ -105,7 +105,7 @@
         <br>
         <ion-row>
           <ion-col class="imagen-centrada">
-            <ion-button  class="custom-button">
+            <ion-button  class="custom-button"  (click)="scrollToSection('rectangulo16')">
               CONTACTANOS
             </ion-button>
           </ion-col>
@@ -201,7 +201,7 @@
                     <ion-icon name="checkmark-circle-sharp" style=" font-size: 50px; display: block; margin: 0 auto; color: #498B87;;"></ion-icon>
                   </ion-card-header>
                   <ion-card-content style="color: #498B87;text-align: center;">
-                    Evaluación técnica presencial, donde evaluamos las distintas variables de acuerdo a lo que necesita nuestr@ cliente.
+                    Evaluación técnica presencial, donde evaluamos las distintas variables de acuerdo a lo que necesita nuestros clientes.
                   </ion-card-content>
                 </ion-card>
               </ion-col>
@@ -420,10 +420,10 @@
           <ion-label style="color: #498B87;">+56 9 58280310</ion-label>
           <br><br>
           <ion-icon name="mail-outline" style="color: #498B87;"></ion-icon>
-          <ion-label style="color: #498B87;">correoEjemplo@gmail.com</ion-label>
+          <ion-label style="color: #498B87;">correoEjemplogmail.com</ion-label>
           <br><br>
           <ion-icon name="logo-instagram" style="color: #498B87;"></ion-icon>
-          <ion-label style="color: #498B87;">@InstaEjemplo</ion-label>
+          <ion-label style="color: #498B87;">InstaEjemplo</ion-label>
         </ion-list>
       </ion-col>
         <ion-col size="1"></ion-col>
